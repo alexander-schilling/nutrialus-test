@@ -20,6 +20,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "cl.alexanderschilling.nutrialustest",
       "adaptiveIcon": {
         "foregroundImage": "./assets/app/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
