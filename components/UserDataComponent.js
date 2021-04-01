@@ -1,14 +1,21 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { View } from "react-native";
+import ProfileDataFieldComponent from "./ProfileDataFieldComponent";
 
 class UserDataComponent extends React.Component {
   render() {
     return (
       <View>
-        <Text>Name: {this.props.name}</Text>
-        <Text>Email: {this.props.email}</Text>
-        <Text>Phone number: {this.props.phone}</Text>
-        <Text>Nutritionist: {this.props.nutritionist}</Text>
+        <ProfileDataFieldComponent title="Name" content={this.props.name} />
+        <ProfileDataFieldComponent title="Email" content={this.props.email} />
+        <ProfileDataFieldComponent
+          title="Phone number"
+          content={this.props.phone}
+        />
+        <ProfileDataFieldComponent
+          title="Nutritionist"
+          content={this.props.nutritionist}
+        />
       </View>
     );
   }
