@@ -52,6 +52,16 @@ class ProfileComponent extends React.Component {
     });
   }
 
+  refreshUserData() {
+    this.setState({
+      userResult: this.getDefaultUserResult(),
+      isRequestFulfilled: false,
+      status: 404,
+    });
+
+    this.requestUserData();
+  }
+
   render() {
     return <View></View>;
   }
