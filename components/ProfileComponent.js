@@ -64,10 +64,11 @@ class ProfileComponent extends React.Component {
   }
 
   renderProfilePicture() {
+    const url = this.state.userResult.image + "?date=" + Date.now()
     return (
       <Image
         style={styles.profileImage}
-        source={{ uri: this.state.userResult.image + "#" + Date.now() }}
+        source={{ uri: url }}
         defaultSource={require("../assets/img/profile-default.jpg")}
       />
     );
