@@ -1,9 +1,11 @@
 # Nutrialus programming test
+
 ## nutrialus-test
 
 ![nutrialus-test preview](https://i.imgur.com/L6kGf3q.png)
 
 ### Introduction
+
 This project was developed with the [Expo](https://docs.expo.io/) framework using React Native, specifically for [nutrialus](https://nutrial.us) internship [programming test](https://gist.github.com/fcabanasm/10e9bb37f24ee0fa85bb6380387899e9).
 
 ### The test (Spanish)
@@ -33,18 +35,23 @@ El objetivo del test de programación es conectarse con un servicio REST para ob
    3. Desarrollar la APP en React Native usando Expo.
 
 ### Development
+
 It was required that the app displayed some data fields obtained through a REST service, like name, email and phone number, but I also found that it had a nutritionist field, so I added it. Each time it was called, it answered different data.
 This project was developed in 3 days, most of the time it was learning and debugging React, React Native and Expo. It was developed with web and mobile in mind. At first I used a left and right panel, the left one showed the picture, and the right, the button and data fields, but on mobile, it was too small and didn't work the way I intended, so I only used basic flex and only in columns.
 
+Go to [Expo project](https://expo.io/accounts/alepra/projects/nutrialus-test)
+
 ### Requirements
+
 - [Node.js](https://nodejs.org/)
 - [Expo](https://docs.expo.io/get-started/installation/)
 
 ### Setup project
+
 1. Clone the project
-2. Install project: ```npm install```
-3. Start project: ```expo start```
+2. Install project: `npm install`
+3. Start project: `expo start`
 4. (Optional) Build project:
-    1. Web: ```expo build:web```
-    2. Android: ```expo build:android```
-    3. iOS (not tested): ```expo build:ios```
+   1. Web: `expo build:web`
+   2. Android: `expo build:android`
+   3. iOS (not tested): `expo build:ios`
