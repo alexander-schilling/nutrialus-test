@@ -17,6 +17,7 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "cl.alexanderschilling.nutrialustest",
       "supportsTablet": true
     },
     "android": {
