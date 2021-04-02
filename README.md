@@ -39,7 +39,8 @@ El objetivo del test de programación es conectarse con un servicio REST para ob
 It was required that the app displayed some data fields obtained through a REST service, like name, email and phone number, but I also found that it had a nutritionist field, so I added it. Each time it was called, it answered different data.
 This project was developed in 3 days, most of the time it was learning and debugging React, React Native and Expo. It was developed with web and mobile in mind. At first I used a left and right panel, the left one showed the picture, and the right, the button and data fields, but on mobile, it was too small and didn't work the way I intended, so I only used basic flex and only in columns.
 
-Go to [Expo project](https://expo.io/accounts/alepra/projects/nutrialus-test)
+- Go to [Expo project](https://expo.io/accounts/alepra/projects/nutrialus-test).
+- Go to [web live preview](https://nutrialus-test.alexanderschilling.cl).
 
 ### Requirements
 
