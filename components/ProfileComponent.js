@@ -64,7 +64,7 @@ class ProfileComponent extends React.Component {
   }
 
   renderProfilePicture() {
-    const url = this.state.userResult.image + "?date=" + Date.now()
+    const url = this.state.userResult.image + "?date=" + Date.now();
     return (
       <Image
         style={styles.profileImage}
